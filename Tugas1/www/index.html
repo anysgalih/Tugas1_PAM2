@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jquery Sample</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+<script src="js/jquery.js"></script>
+<script src="js/jquery.mobile.js"></script>
+</head>
+<body>	
+	<div data-role="page" id="main">
+		<div data-role="header" data-position="fixed">
+			<a href="" data-icon="home">Home</a>
+			<h1>MUSIC ALBUM</h1>
+			<a href="#secondPage" data-icon="info">About</a>
+		</div>
+
+		<div data-role="content">
+			<ul data-role="listview" data-filter="true">
+				<li style="padding:2pt">
+					<a href="#edsheeran" data-info="info"> 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>X (Deluxe Edition)</p>
+						<span class="ui-li-count">15</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#paramore" data-info="info"> 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Self-Titled Deluxe</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#maroon5" data-info="info"> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>V (Deluxe Edition)</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="#coldplay" data-info="info"> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Ghost Stories</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<h4>FTI &copy; 2015</h4>
+		</div>
+	</div>
+	
+	<div data-role="page" id="edsheeran" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<h1>Ed Sheeran</h1>
+			<h4>X (Deluxe Edition) (2014)</h4>
+		</div>
+		<div >
+			<ul data-role="listview">
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>I'm A Mess</p>
+						<span class="ui-li-count">1</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Sing</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Don't</p>
+						<span class="ui-li-count">3</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Bloodstream</p>
+						<span class="ui-li-count">4</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>One</p>
+						<span class="ui-li-count">5</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Thinking Out Loud</p>
+						<span class="ui-li-count">6</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>I see Fire</p>
+						<span class="ui-li-count">7</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Tenerife Sea</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Shirtsleeves</p>
+						<span class="ui-li-count">9</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Even My Dad Does Sometimes</p>
+						<span class="ui-li-count">10</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Nina</p>
+						<span class="ui-li-count">11</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Take It Back</p>
+						<span class="ui-li-count">12</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>The Man</p>
+						<span class="ui-li-count">13</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Runaway</p>
+						<span class="ui-li-count">14</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Afire Love</p>
+						<span class="ui-li-count">15</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/01.jpg"/>
+						<h4>Ed Sheeran</h4>
+						<p>Photograph</p>
+						<span class="ui-li-count">16</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="paramore" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<h1>Paramore</h1>
+			<h4>Self-Titled Deluxe (2014)</h4>
+		</div>
+		<div >
+			<ul data-role="listview">
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Now</p>
+						<span class="ui-li-count">1</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Future</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Hate You See Your Heart Break(feat. Joy Williams)</p>
+						<span class="ui-li-count">3</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Interlude:Moving On</p>
+						<span class="ui-li-count">4</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Still Into You</p>
+						<span class="ui-li-count">5</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Last Hope</p>
+						<span class="ui-li-count">6</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Ain't It Fun</p>
+						<span class="ui-li-count">7</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Tell Me It's Okay(Demo)</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Fast In My Car</p>
+						<span class="ui-li-count">9</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Grow Up</p>
+						<span class="ui-li-count">10</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>(One Of Those) Crazy Girls</p>
+						<span class="ui-li-count">11</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>I'm Not Angry Anymore</p>
+						<span class="ui-li-count">12</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Proof</p>
+						<span class="ui-li-count">13</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/02.jpg"/>
+						<h4>Paramore</h4>
+						<p>Still Into You</p>
+						<span class="ui-li-count">14</span>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="maroon5" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<h1>Maroon 5</h1>
+			<h4>V (Deluxe Edition) (2014)</h4>
+		</div>
+		<div >
+			<ul data-role="listview">
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Leaving California</p>
+						<span class="ui-li-count">1</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Sugar</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>My Heart Is Open (feat. Gwen Stefani)</p>
+						<span class="ui-li-count">3</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Animals</p>
+						<span class="ui-li-count">4</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>New Love</p>
+						<span class="ui-li-count">5</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>It Was Always You</p>
+						<span class="ui-li-count">6</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Maps</p>
+						<span class="ui-li-count">7</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Coming Back For You</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Sex And Candy</p>
+						<span class="ui-li-count">9</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>In Your Pocket</p>
+						<span class="ui-li-count">10</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Feelings</p>
+						<span class="ui-li-count">11</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Unkiss Me</p>
+						<span class="ui-li-count">12</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Shoot Love</p>
+						<span class="ui-li-count">13</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href="" > 
+						<img src="img/03.jpg"/>
+						<h4>Maroon 5</h4>
+						<p>Lost Stars</p>
+						<span class="ui-li-count">13</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="page" id="coldplay" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			 <a href="#" data-rel="back">Back</a>
+			<h1>About</h1>
+		</div>
+		<div data-role="content">
+			<h1>Coldplay</h1>
+			<h4>Ghost Stories (2014)</h4>
+		</div>
+		<div >
+			<ul data-role="listview">
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>A Sky Full Of Stars</p>
+						<span class="ui-li-count">1</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Another's Arms</p>
+						<span class="ui-li-count">2</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Midnight</p>
+						<span class="ui-li-count">3</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Oceans</p>
+						<span class="ui-li-count">4</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>O</p>
+						<span class="ui-li-count">5</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Ink</p>
+						<span class="ui-li-count">6</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>True Love</p>
+						<span class="ui-li-count">7</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Magic</p>
+						<span class="ui-li-count">8</span>
+					</a>
+				</li>
+				<li style="padding:2pt">
+					<a href=""> 
+						<img src="img/04.jpg"/>
+						<h4>Coldplay</h4>
+						<p>Always In My Head</p>
+						<span class="ui-li-count">9</span>
+					</a>
+				</li>		
+			</ul>
+		</div>
+		<div data-role="footer" data-position="fixed">   
+			<div data-role="navbar" data-iconpos="top">
+				<ul>
+					<li><a href="#main" data-icon="home" class="ui-btn-active">One</a></li>
+					<li><a href="#" data-icon="gear">Two</a></li>
+					<li><a href="#" data-icon="info">Three</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+</body>
+</html>
